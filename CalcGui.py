@@ -56,9 +56,9 @@ btn_add = Button(root, text="+", width=5, height=2, font=("Tahoma", 20), command
 btn_add.grid(row=1, column=3)
 btn_subs= Button(root, text="-", width=5, height=2, font=("Tahoma", 20), command=lambda: set_number('-'))
 btn_subs.grid(row=2, column=3)
-btn_mul = Button(root, text="×", width=5, height=2, font=("Tahoma", 20), command=lambda: set_number('×'))
+btn_mul = Button(root, text="×", width=5, height=2, font=("Tahoma", 20), command=lambda: set_number('*'))
 btn_mul.grid(row=3, column=3)
-btn_div = Button(root, text="÷", width=5, height=2, font=("Tahoma", 20), command=lambda: set_number('÷'))
+btn_div = Button(root, text="÷", width=5, height=2, font=("Tahoma", 20), command=lambda: set_number('/'))
 btn_div.grid(row=4, column=3)
 
 
